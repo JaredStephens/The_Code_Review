@@ -21,6 +21,10 @@ h2 {
 	padding-bottom: 0.5em;
 	font-size: 20px;
 }
+legend,
+h2 {
+	color: black;
+}
 #info {
 	padding-right: 0.5em;
 	padding-left: 0.5em;
@@ -33,14 +37,29 @@ fieldset {
 	display: flex;
 	flex-direction: column;
 }
-#info_label {
+.line-1 {
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 0.9vh;
+	text-align: center;
+	height: 5px;
+	background: black;
+}
+.line-2 {
+	margin-left: 1em;
+	margin-right: 1em;
+	text-align: center;
+	height: 2px;
+	background: black;
+}
+legend {
 	font-weight: bold;
-	padding-bottom: 5%;
-	padding-top: 1em;
+	padding-bottom: 10%;
+	padding-top: 5%;
 }
 input {
 	line-height: 3em;
-	background-color: #d3d3d3;
+	background-color: #f2f2f2;
 	border: none;
 	outline-color: #14213d;
 	color: black;
@@ -55,13 +74,9 @@ input {
 }
 select {
 	height: 3em;
-	background-color: #d3d3d3;
+	background-color: #f2f2f2;
 	border: none;
 	outline-color: #14213d;
-}
-legend,
-h2 {
-	color: black;
 }
 #zip {
 	width: 50%;
