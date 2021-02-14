@@ -52,6 +52,14 @@ fieldset {
 	height: 2px;
 	background: black;
 }
+.line-3 {
+	margin-left: 1em;
+	margin-right: 1em;
+	text-align: center;
+	height: 2px;
+	background: black;
+	margin-top: 10%;
+}
 legend {
 	font-weight: bold;
 	padding-bottom: 10%;
