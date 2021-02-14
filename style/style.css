@@ -81,3 +81,38 @@ select {
 #zip {
 	width: 50%;
 }
+.newsletter {
+	padding-top: 1em;
+}
+.newsletter input {
+	margin-right: 0.5em;
+}
+#newsletter_form {
+	padding-top: 1.5em;
+}
+textarea {
+	background-color: #f2f2f2;
+	border: none;
+	outline-color: #14213d;
+}
+#other {
+	padding-top: 1.5em;
+	padding-bottom: 0.5em;
+}
+button {
+	background-color: rgb(54, 191, 145);
+	color: white;
+	text-align: center;
+	border: none;
+	padding: 5% 35%;
+	position: relative;
+	margin: auto;
+	display: block;
+}
+footer {
+	font-size: small;
+	text-align: center;
+	font-style: italic;
+	padding: 10% 10%;
+	padding-bottom: 30%;
+}

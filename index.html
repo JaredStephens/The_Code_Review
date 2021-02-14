@@ -5,9 +5,6 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="style/style.css" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap"
 			rel="stylesheet"
@@ -74,23 +71,36 @@
 				<input type="text" id="zip" name="zip" minlength="5" maxlength="9" />
 			</fieldset>
 			<fieldset>
-				<p>Select the newsletter you would like to recieve</p>
 				<legend>Newsletter</legend>
-				<label for="html">HTML News</label>
-				<input type="checkbox" id="html" name="letter" />
-				<label for="css">CSS News</label>
-				<input type="checkbox" id="css" name="letter" />
-				<label for="js">Javascript News</label>
-				<input type="checkbox" id="js" name="letter" />
-				<p>Newsletter format</p>
-				<input type="radio" id="HTML" name="format" value="HTML" />
-				<label for="HTML">HTML</label>
-				<input type="radio" id="Plain" name="format" value="Plain" />
-				<label for="Plain">Plain text</label>
-				<label for="other">Other Topics you'd like to hear about</label>
+				<p>Select the newsletter you would like to recieve</p>
+				<div class="newsletter">
+					<input type="checkbox" id="html" name="letter" />
+					<label for="html" class="checkbox">HTML News</label>
+				</div>
+				<div class="newsletter">
+					<input type="checkbox" id="css" name="letter" />
+					<label for="css">CSS News</label>
+				</div>
+				<div class="newsletter">
+					<input type="checkbox" id="js" name="letter" />
+					<label for="js">Javascript News</label>
+				</div>
+				<p id="newsletter_form">Newsletter format</p>
+				<div class="newsletter">
+					<input type="radio" id="HTML" name="format" value="HTML" />
+					<label for="HTML">HTML</label>
+				</div>
+				<div class="newsletter">
+					<input type="radio" id="Plain" name="format" value="Plain" />
+					<label for="Plain">Plain text</label>
+				</div>
+				<label for="other" id="other"
+					>Other Topics you'd like to hear about</label
+				>
 				<textarea name="other" id="" cols="30" rows="10" id="other"></textarea>
-				<button>Submit</button>
 			</fieldset>
+			<button>Sign Up</button>
+			<footer>Copyright The Code Review</footer>
 		</form>
 	</body>
 </html>
