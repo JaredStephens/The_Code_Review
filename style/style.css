@@ -2,7 +2,7 @@
 	padding: 0%;
 	margin: 0%;
 	font-family: "Merriweather", serif;
-	color: #939393;
+	color: #bdbdbd;
 }
 /* HEADER */
 header {
@@ -22,10 +22,35 @@ h2 {
 	font-size: 20px;
 }
 #info {
-	padding-right: 10%;
-	padding-left: 10%;
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+	padding-bottom: 10%;
 }
-h2,
-legend {
+/* FORM */
+input {
+	line-height: 3em;
+	background-color: #d3d3d3;
+	border: none;
+	outline-color: #14213d;
+}
+::-webkit-input-placeholder {
+	text-align: right;
+	padding-right: 1em;
+	font-style: italic;
+	color: #a8a8a8;
+}
+fieldset {
+	margin: 5%;
+	border: none;
+	display: flex;
+	flex-direction: column;
+}
+#info_label {
+	font-weight: bold;
+	padding-bottom: 5%;
+	padding-top: 1em;
+}
+legend,
+h2 {
 	color: black;
 }

@@ -24,14 +24,26 @@
 		</header>
 		<form action="#">
 			<fieldset>
-				<legend>Contact Information</legend>
+				<legend id="info_label">Contact Information</legend>
 				<label for="fname">Full Name</label>
 				<br />
-				<input type="text" id="fname" name="fname" placeholder="Required" />
+				<input
+					type="text"
+					id="fname"
+					name="fname"
+					placeholder="Required"
+					required
+				/>
 				<br />
 				<label for="email">Email Address</label>
 				<br />
-				<input type="email" id="email" name="email" placeholder="Required" />
+				<input
+					type="email"
+					id="email"
+					name="email"
+					placeholder="Required"
+					required
+				/>
 				<br />
 				<label for="number">Phone Number</label>
 				<br />
@@ -72,6 +84,7 @@
 				<label for="Plain">Plain text</label>
 				<label for="other">Other Topics you'd like to hear about</label>
 				<textarea name="other" id="" cols="30" rows="10" id="other"></textarea>
+				<button>Submit</button>
 			</fieldset>
 		</form>
 	</body>
