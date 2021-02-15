@@ -3,6 +3,7 @@
 	margin: 0%;
 	font-family: "Merriweather", serif;
 	color: #bdbdbd;
+	box-sizing: border-box;
 }
 /* HEADER */
 header {
@@ -71,14 +72,21 @@ input {
 	border: none;
 	outline-color: #14213d;
 	color: black;
-	padding-left: 0.5em;
 	border-radius: 1vh;
+}
+label {
+	padding-bottom: 1em;
 }
 ::-webkit-input-placeholder {
 	text-align: right;
 	padding-right: 1em;
 	font-style: italic;
 	color: #a8a8a8;
+}
+.contact-info .flex-pair {
+	display: flex;
+	flex-direction: column;
+	padding-top: 1.5em;
 }
 select {
 	height: 3em;
@@ -133,9 +141,25 @@ footer {
 		margin-left: 15%;
 		margin-right: 15%;
 	}
+	.contact-info .flex-pair {
+		flex-direction: row;
+	}
+	.contact-info input,
+	.contact-info select {
+		flex-grow: 1;
+		flex-basis: 75%;
+	}
+	.contact-info label {
+		flex-basis: 25%;
+		height: 50px;
+		margin: auto 0;
+	}
 	fieldset {
-		margin-left: 20%;
-		margin-right: 20%;
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+	label {
+		margin-right: 1em;
 	}
 	button {
 		padding: 1.5em 27%;
