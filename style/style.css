@@ -73,6 +73,12 @@ input {
 	outline-color: #14213d;
 	color: black;
 	border-radius: 1vh;
+	text-align: left;
+	padding-left: 0.5em;
+}
+input:focus {
+	background-color: #cfcfcf;
+	transition: 1s;
 }
 label {
 	padding-bottom: 1em;
@@ -110,6 +116,9 @@ textarea {
 	background-color: #f2f2f2;
 	border: none;
 	outline-color: #14213d;
+	color: black;
+	padding-left: 0.5em;
+	padding-top: 0.5em;
 }
 #other {
 	padding-top: 1.5em;
@@ -124,6 +133,10 @@ button {
 	position: relative;
 	margin: auto;
 	display: block;
+}
+button:hover {
+	background-color: rgb(4, 135, 91);
+	transition: 1s;
 }
 footer {
 	font-size: small;
