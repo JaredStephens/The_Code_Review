@@ -134,7 +134,10 @@ footer {
 		margin-right: 15%;
 	}
 	fieldset {
-		margin-left: 15%;
-		margin-right: 15%;
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+	button {
+		padding: 1.5em 27%;
 	}
 }
